@@ -7,10 +7,10 @@ Gem::Specification.new do |spec|
   spec.name          = "esbit"
   spec.version       = Esbit::VERSION
   spec.authors       = ["Bradly Feeley"]
-  spec.email         = ["bradly_feeley@intuit.com"]
-  spec.description   = %q{TODO: Write a gem description}
-  spec.summary       = %q{TODO: Write a gem summary}
-  spec.homepage      = ""
+  spec.email         = ["bradlyf@gmail.com"]
+  spec.description   = %q{A lightweight gem to interact with the Campfire API}
+  spec.summary       = %q{A lightweight gem to interact with the Campfire API}
+  spec.homepage      = "https://github.com/bradly/esbit"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
