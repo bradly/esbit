@@ -1,6 +1,6 @@
 # Esbit
 
-TODO: Write a gem description
+A lightweight gem to interact with the Campfire API that doesn't depend on EventMachine or a Twitter gem.
 
 ## Installation
 
@@ -18,7 +18,14 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+```ruby
+require 'esbit'
+campfire = Esbit::Campfire.new('your_campfire_subdomain', 'your_campfire_token')
+campfire.rooms
+room = campfire.rooms.find_room_by_name('My Room')
+room.say 'Hello, World!'
+```
+
 
 ## Contributing
 
