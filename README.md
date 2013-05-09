@@ -2,6 +2,8 @@
 
 A lightweight gem to interact with the Campfire API that doesn't depend on EventMachine or a Twitter gem.
 
+There are currently only a few API calls implemented based on what I needed, but please feel free to send a pull request with any you find usefull.
+
 ## Installation
 
 Add this line to your application's Gemfile:
