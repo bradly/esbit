@@ -10,7 +10,7 @@ module Esbit
 
     def say(message)
       json_message = {message: {type: 'TextMessage', body: message}}
-      @connection.post "/room/#{@id}/speak", json_message(message)
+      @connection.post "/room/#{@id}/speak", json_message
     end
   end
 end
